@@ -21,4 +21,8 @@ insert into teachers(name,age,country)
 values('Lâm',21,'Việt Nam'),
 ('Sang',26,'Lào');
 
-SELECT name FROM mateachersteachersclassesclassesnager_student.teachers;
+SELECT id,name FROM teachers;
+
+delete
+from teachers
+where id=1;
