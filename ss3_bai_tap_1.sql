@@ -104,7 +104,7 @@ where
   select Student.StudentName, sj.SubName,m.Mark
   from Student
   join 
-  Mark as m on m.StudentId=Student.Student.StudentId
+  Mark as m on m.StudentId=Student.StudentId
   join
   Subject as sj on m.SubId= sj.SubId
   order by mark desc
