@@ -201,6 +201,12 @@ values ('Nguyễn Văn An','1970-11-07','456231786',10000000,'0901234121','anngu
     group by hd.ma_khach_hang
     order by count(hd.ma_khach_hang) asc;
        
+	
+	  select ma_dich_vu,ten_dich_vu,dien_tich,chi_phi_thue,ten_loai_dich_vu
+       from dich_vu  d
+       join loai_dich_vu  l on
+       d.loai_dich_vu_id= d.kieu
+       
        
 
 
