@@ -2,52 +2,52 @@ create database quan_ly_ban_hang;
 use quan_ly_ban_hang;
 
 create table customer(
-cID int primary key auto_increment,
-cName varchar(45),
-cAge int 
+c_id int primary key auto_increment,
+c_name varchar(45),
+c_age int 
 );
 
 create table orders(
-oID int primary key auto_increment,
-cID int,
-oDate date,
-oTotalPrice double,
+o_id int primary key auto_increment,
+c_id int not null,
+o_date date,
+o_total_price double,
 foreign key(cID)references customer(cID)
 );
 
 create table products(
-pID int primary key auto_increment,
-pName varchar(45),
-pPrice double
+p_id int primary key auto_increment,
+p_name varchar(45),
+p_price double
 );
 
-create table OrderDetails(
-oID int,
-pID int,
-primary key(oID,pID),
-foreign key(oID) references orders(oID),
-foreign key (pID) references products(pID),
-odQTY int
+create table orderdetails(
+o_id int not null,
+p_id int not null,
+primary key(o_id,p_id),
+foreign key(o_id) references orders(o_id),
+foreign key (p_id) references products(p_id),
+od_qty int
 );
 
-insert into customer (cName,cAge)
+insert into customer (c_name,c_age)
 values('Minh Quân',10),
 ('Ngọc Oanh',20),
 ('Hong Ha',50);
 
-insert into orders(cID,cName,oTotalPrice)
+insert into orders(c_id,c_name,o_total_price)
 values(1,'3/21/2006',null),
 (2,'3/23/2006',null),
 (1,'3/16/2006',null);
 
-insert into products(pName,pPrice)
+insert into products(p_name,p_price)
 values ('Máy giặc',3),
 ('Tủ lạnh',5),
 ('Điều hoà',7),
 ('Quạt',1),
 ('Bếp điện',2);
 
-insert into  OrderDetails(oID,pID,odQTY)
+insert into  orderDetails(o_id,p_id,od_qty)
 values(1,1,3),
 (1,3,7),
 (1,4,2),
@@ -56,17 +56,17 @@ values(1,1,3),
 (2,5,4),
 (2,3,3);
 
-select cID,cName,oTotalPrice
+select c_id,c_name,o_total_price
 from orders;
 
-select orders.oID,customer.cName
+select orders.o_id,customer.c_name
 from orders 
-join customer on orders.cID=customer.cID
-where orders.oID is null;
+join customer on orders.c_id=customer.c_id
+where orders.o_id is null;
 
-select orders.oID,customer.cName
+select orders.o_id,customer.c_name
 from orders 
-join customer on orders.cID=customer.cID;
+join customer on orders.c_id=customer.c_id;
 
 
 
