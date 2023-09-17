@@ -107,6 +107,6 @@ where
   Mark as m on m.StudentId=Student.StudentId
   join
   Subject as sj on m.SubId= sj.SubId
-  order by mark desc
+  order by mark desc, studentName asc;
  
  
