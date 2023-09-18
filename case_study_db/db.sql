@@ -397,6 +397,22 @@ where year(hd.ngay_lam_hop_dong) = 2021
 group by hd.ma_khach_hang
 having sum(ifnull(ifnull(dv.chi_phi_thue,0)+ ifnull(hdct.so_luong,0) * ifnull(dvdk.gia,0),0)>10000000) ;
 
+update khach_hang
+set ma_loai_khach = 1
+where ma_khach_hang in(
+select ma_khach_hang
+from tinh_tong
+);
+
+select khach_hang.ma_khach_hang,khach_hang.ho_ten,loai_khach.ten_loai_khach
+from khach_hang
+join loai_khach on loai_khach. ma_loai_khach = khach_hang.ma_loai_khach ;
+
+drop view tinh_tong
+
+
+
+
 
        
 
