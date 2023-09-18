@@ -86,17 +86,19 @@ VALUES (1, 1, 8, 1),
 select SubName, max(m.mark)
 from mark m
 join subject s on s.SubId=m.SubId
-group by SubName;
+group by SubName
+order by max(m.mark) desc
+limit 1;
 
 select SubId,SubName,Status,max(Credit)
 from subject
 group by SubId
-order by Credit desc
+order by Credit desc 
 limit 1;
 
-select m.StudentId,s.StudentName,avg(m.mark)
+select m.StudentId,s.StudentName,avg(m.mark) as "medium_score"
 from mark m
 join student s
 on m.StudentId=s.StudentId
 group by m.StudentId
-order by mark desc;
+order by avg(m.mark) desc;

@@ -43,7 +43,7 @@ end //
 delimiter ;
 
 delimiter $$
-create procedure add_products(id int,product_code int,product_name varchar(45),product_price double,product_amount int,product_description varchar(45),product_status varchar(45))
+create procedure add_products(product_code int,product_name varchar(45),product_price double,product_amount int,product_description varchar(45),product_status varchar(45))
 begin
 insert into products
 values(id,product_code,product_name,product_price,product_amount,product_description,product_status) ;
@@ -76,8 +76,8 @@ delimiter ;
 
 
 
-call add_products(3,6,'Thuốc lá',10000,1,'thơm','tốt/còn hạng sử dụng');
-call add_products(2,8,'Nước mắm',20000,10,'mặn','tốt/còn hạn sử dụng');
+call add_products(6,'Thuốc lá',10000,1,'thơm','tốt/còn hạng sử dụng');
+call add_products(8,'Nước mắm',20000,10,'mặn','tốt/còn hạn sử dụng');
 
 call update_products(2,9,'Thuốc lá',10000,1,'thơm','tốt/còn hạng sử dụng');
 
