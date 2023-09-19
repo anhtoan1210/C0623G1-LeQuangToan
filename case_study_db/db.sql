@@ -420,7 +420,20 @@ from khach_hang
 union 
 select nhan_vien.ma_nhan_vien as id ,nhan_vien.ho_ten,nhan_vien.email,nhan_vien.so_dien_thoai,
 nhan_vien.ngay_sinh,nhan_vien.dia_chi
-from nhan_vien
+from nhan_vien ;
+
+-- 19.	Cập nhật giá cho các dịch vụ đi kèm được sử dụng trên 10 lần trong năm 2020 lên gấp đôi.
+update dich_vu_di_kem
+set gia = gia * 2
+where ma_dich_vu_di_kem in(
+select ma_dich_vu_di_kem
+from hop_dong_chi_tiet
+join hop_dong on hop_dong.ma_hop_dong = hop_dong_chi_tiet.ma_hop_dong
+where so_luong >10 and year(ngay_lam_hop_dong) = 2020
+group by ma_dich_vu_di_kem
+) ;
+
+
 
        
 
