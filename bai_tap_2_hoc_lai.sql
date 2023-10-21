@@ -20,7 +20,7 @@ id int not null auto_increment primary key,
 
 create table books(
 id int not null auto_increment primary key,
-title varchar(45),
+`name` varchar(45),
 page_size int,
 author_id int,
 foreign key(author_id) references authors(id),
@@ -30,9 +30,9 @@ foreign key(category_id) references category(id)
 
 
 create table borrows(
+id int primary key auto_increment,
 student_id int,
 books_id int,
-primary key(student_id,books_id),
 foreign key(student_id) references students(id),
 foreign key(books_id) references books(id),
 borrow_date date,
@@ -54,9 +54,82 @@ value ('Nguyễn Thái Học'),
 ('Hà Văn Minh');
 
 insert into students(`name`,birthday,class_name)
-value ('Nguyễn Văn A','12-12-1999','C0822G1'),
-('Nguyễn Văn B','12-13-1999','C0822G1'),
-('Nguyễn Văn C','12-14-1999','C0822G1'),
-('Nguyễn Văn D','12-15-1999','C0922G1'),
-('Nguyễn Văn E','12-16-1999','C01022G1');
+value ('Nguyễn Văn A','1999-12-12','C0822G1'),
+('Nguyễn Văn B','1999-12-13','C0822G1'),
+('Nguyễn Văn C','1999-12-14','C0822G1'),
+('Nguyễn Văn D','1999-12-15','C0922G1'),
+('Nguyễn Văn E','1999-12-16','C01022G1');
+
+insert into books(`name`,page_size,author_id,category_id)
+value ('Toán',45,1,1),
+('Văn',34,2,2),
+('Sử',56,3,2),
+('Địa',76,4,2),
+('Hoá',32,5,1);
+set foreign_key_checks=0;
+insert into borrows(student_id,books_id,borrow_date,return_date)
+value (1,1,'2022-12-12','2022-12-13'),
+ (2,2,'2022-12-12','2022-12-15'),
+(3,3,'2022-12-12','2022-12-13'),
+(4,4,'2022-12-12','2022-12-12'),
+(1,5,'2022-12-13','2022-12-15'),
+(1,5,'2022-12-14','2022-12-14'),
+(3,4,'2022-12-15','2022-12-29'),
+ (3,3,'2022-12-8','2022-12-14'),
+ (1,2,'2022-12-6','2022-12-30');
+ 
+ select b.name,b.page_size,a.name,c.name
+ from books b
+ join category c  on c.id = b.category_id
+ join authors a on a.id = b.author_id;
+ 
+ select students.*,borrows.borrow_date,borrows.return_date
+ from students
+ join borrows on borrows.student_id = students.id
+ where books_id >= 1
+ order by students.name;
+ 
+--  select b.name, count(b.id) as max
+--  from books b
+--  join category c on c.id = b.category_id
+--  join authors a on a.id = b.author_id
+--  join borrows br on br.books_id = b.id;
+ 
+ select b.`name`, count(borrows.books_id) as 'so_lan_muon'
+ from books b
+ left join borrows on borrows.books_id = b.id
+ group by b.id
+ order by count(borrows.books_id) desc
+ limit 2;
+ 
+  create view bookss as 
+  select b.`name`,count(br.books_id) as 'so_luong'
+ from books b
+ join borrows br on br.books_id = b.id
+ group by b.id;
+
+select *
+from bookss
+where so_luong = (select max(so_luong)
+from bookss);
+
+select *
+from bookss
+where so_luong not in (select so_luong
+from bookss);
+
+select s.name,count(s.id) as 'so_luong'
+from students s
+join borrows br on br.student_id = s.id
+group by s.id
+order by so_luong desc;
+
+ select s.name, count(s.id) as 'so_luong'
+ from students s 
+ join borrows br on br.student_id = s.id
+ group by s.id
+ order by so_luong desc
+ limit 1;
+ 
+ 
 
