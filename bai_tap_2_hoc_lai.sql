@@ -66,6 +66,7 @@ value ('Toán',45,1,1),
 ('Sử',56,3,2),
 ('Địa',76,4,2),
 ('Hoá',32,5,1);
+
 set foreign_key_checks=0;
 insert into borrows(student_id,books_id,borrow_date,return_date)
 value (1,1,'2022-12-12','2022-12-13'),
@@ -131,5 +132,19 @@ order by so_luong desc;
  order by so_luong desc
  limit 1;
  
+ create  index books_name on books(name);
  
-
+ create view books_view as
+ (select b.name,count(b.id) as 'so_luong'
+ from books b
+ join borrows br on br.books_id = b.id);
+ 
+ delimiter //
+ create procedure books_procedure(name varchar(50), page_size int,author_id int,category_id int)
+ begin
+ insert into books (name,page_size,author_id,category_id)
+ values (name,page_size,author_id,category_id);
+ end //
+ delimiter ;
+ 
+ call books_procedure('Lý',50,2,1);
