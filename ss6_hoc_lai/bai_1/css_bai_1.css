@@ -1,0 +1,18 @@
+.H{
+    text-align: center;
+}
+.color{
+    color:deepskyblue;
+    font-weight:1000;
+}
+button{
+    color: aliceblue;
+    background-color: black;
+    text-align: center;
+    border: none;
+    padding: 15px 32px;
+}
+*{
+    padding: 0px;
+    margin: 10px;
+}
