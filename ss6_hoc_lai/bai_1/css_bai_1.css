@@ -1,9 +1,10 @@
 .H{
     text-align: center;
+    border:1px solid black;
 }
 .color{
     color:deepskyblue;
-    font-weight:1000;
+    font-weight:bold;
 }
 button{
     color: aliceblue;
