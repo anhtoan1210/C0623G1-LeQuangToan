@@ -20,7 +20,7 @@ public class CalculatorServlet extends HttpServlet {
         char operator = request.getParameter("operator").charAt(0);
         PrintWriter writer = response.getWriter();
         writer.println("<html>");
-        writer.println("<h1>Result:</h1>");
+        writer.println("<h2>Result:</h2>");
         try{
             float result = Calculator.calculate(num1, num2, operator);
             writer.println(num1 + " " + operator + " " + num2 + " = " + result);

@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d278c271-afd9-45f6-85ed-819d6c6e7c91" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/bai_tap_11_mvc/src/main/java/com/example/bai_tap_11_mvc/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_tap_11_mvc/src/main/java/com/example/bai_tap_11_mvc/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_tap_11_mvc/src/main/java/com/example/bai_tap_11_mvc/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_tap_11_mvc/src/main/java/com/example/bai_tap_11_mvc/repository/impl/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_tap_11_mvc/src/main/java/com/example/bai_tap_11_mvc/service/IProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_tap_11_mvc/src/main/java/com/example/bai_tap_11_mvc/service/impl/ProductService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss6_hoc_lai/bai_1/bai_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss6_hoc_lai/bai_1/bai_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai_tap_10_bai_2/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bai_tap_10_bai_2/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai_tap_10_bai_2/src/main/java/com/example/bai_tap_10_bai_2/CalculatorServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/bai_tap_10_bai_2/src/main/java/com/example/bai_tap_10_bai_2/CalculatorServlet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,24 +39,25 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2X44jEw3X3HxKDhFwgWcNJ4MXk4" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../case_study_nhom" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/module3",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -65,6 +73,7 @@
       <workItem from="1698202423842" duration="16498000" />
       <workItem from="1698236006503" duration="2611000" />
       <workItem from="1698281968379" duration="5947000" />
+      <workItem from="1698711578827" duration="2696000" />
     </task>
     <servers />
   </component>
@@ -81,6 +90,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
