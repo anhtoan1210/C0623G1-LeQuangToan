@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d278c271-afd9-45f6-85ed-819d6c6e7c91" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/bai_tap_11_mvc/src/main/java/com/example/bai_tap_11_mvc/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai_tap_11_mvc/src/main/java/com/example/bai_tap_11_mvc/model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai_tap_11_mvc/src/main/java/com/example/bai_tap_11_mvc/repository/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai_tap_11_mvc/src/main/java/com/example/bai_tap_11_mvc/repository/impl/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai_tap_11_mvc/src/main/java/com/example/bai_tap_11_mvc/service/IProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai_tap_11_mvc/src/main/java/com/example/bai_tap_11_mvc/service/impl/ProductService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai_tap_10_bai_2/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bai_tap_10_bai_2/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai_tap_10_bai_2/src/main/java/com/example/bai_tap_10_bai_2/CalculatorServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/bai_tap_10_bai_2/src/main/java/com/example/bai_tap_10_bai_2/CalculatorServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai_tap_11_mvc/src/main/java/com/example/bai_tap_11_mvc/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/bai_tap_11_mvc/src/main/java/com/example/bai_tap_11_mvc/repository/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai_tap_11_mvc/src/main/java/com/example/bai_tap_11_mvc/repository/impl/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/bai_tap_11_mvc/src/main/java/com/example/bai_tap_11_mvc/repository/impl/Product.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +67,7 @@
       <workItem from="1698202423842" duration="16498000" />
       <workItem from="1698236006503" duration="2611000" />
       <workItem from="1698281968379" duration="5947000" />
-      <workItem from="1698711578827" duration="2696000" />
+      <workItem from="1698711578827" duration="3313000" />
     </task>
     <servers />
   </component>
