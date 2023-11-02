@@ -26,16 +26,30 @@ UserRepository implements IUserRepository {
         System.out.println(INSERT_USERS_SQL);
         Connection connection = BaseRepository.getConnectDB();
         try (
-             PreparedStatement preparedStatement = connection.prepareStatement(INSERT_USERS_SQL)) {
+                connection.setAutoCommit(false);
+                PreparedStatement preparedStatement = connection.prepareStatement(INSERT_USERS_SQL)) {
             preparedStatement.setString(1, user.getName());
             preparedStatement.setString(2, user.getEmail());
             preparedStatement.setString(3, user.getCountry());
             System.out.println(preparedStatement);
             preparedStatement.executeUpdate();
+
+            //sử dụng commit và rollback
+            CallableStatement callableStatement1 = connection.prepareCall(INSERT_USERS_SQL);
+            callableStatement1.setInt(1, user.getId());
+            callableStatement1.executeUpdate();
+            connection.commit();
+
         } catch (SQLException e) {
-            throw new RuntimeException(e);
+            try {
+                connection.rollback();
+
+            } catch (SQLException ex) {
+                throw new RuntimeException(ex);
+            }
         }
     }
+
 
     @Override
     public User selectUser(int id) {

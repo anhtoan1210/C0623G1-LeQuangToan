@@ -5,9 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d278c271-afd9-45f6-85ed-819d6c6e7c91" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai_tap_11_mvc/src/main/java/com/example/bai_tap_11_mvc/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/bai_tap_11_mvc/src/main/java/com/example/bai_tap_11_mvc/repository/ProductRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai_tap_11_mvc/src/main/java/com/example/bai_tap_11_mvc/repository/impl/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/bai_tap_11_mvc/src/main/java/com/example/bai_tap_11_mvc/repository/impl/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai_tap_13_bai_1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai_tap_13_bai_1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai_tap_13_bai_1/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bai_tap_13_bai_1/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai_tap_13_bai_1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai_tap_13_bai_1/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai_tap_13_bai_1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai_tap_13_bai_1/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai_tap_13_bai_1/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai_tap_13_bai_1/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai_tap_13_bai_1/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai_tap_13_bai_1/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai_tap_13_bai_1/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai_tap_13_bai_1/src/main/java/com/example/bai_tap_12/HelloServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai_tap_13_bai_1/src/main/java/com/example/bai_tap_12/controller/UserServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai_tap_13_bai_1/src/main/java/com/example/bai_tap_12/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai_tap_13_bai_1/src/main/java/com/example/bai_tap_12/repository/BaseRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai_tap_13_bai_1/src/main/java/com/example/bai_tap_12/repository/IUserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai_tap_13_bai_1/src/main/java/com/example/bai_tap_12/repository/impl/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai_tap_13_bai_1/src/main/java/com/example/bai_tap_12/service/IUserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai_tap_13_bai_1/src/main/java/com/example/bai_tap_12/service/impl/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai_tap_13_bai_1/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai_tap_13_bai_1/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai_tap_13_bai_1/src/main/webapp/user/create.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai_tap_13_bai_1/src/main/webapp/user/edit.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai_tap_13_bai_1/src/main/webapp/user/find.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai_tap_13_bai_1/src/main/webapp/user/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai_tap_13_bai_1/src/main/webapp/user/search.jsp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +68,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/module3",
+    "last_opened_file_path": "D:/module3/bai_tap_12",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -68,6 +92,7 @@
       <workItem from="1698236006503" duration="2611000" />
       <workItem from="1698281968379" duration="5947000" />
       <workItem from="1698711578827" duration="3313000" />
+      <workItem from="1698932102617" duration="232000" />
     </task>
     <servers />
   </component>
