@@ -17,4 +17,5 @@ values("LK0121","Member",0),
 select * from loai_khach;
 
 
-select * from loai_khach
+select * from loai_khach;
+select loai_khach.ma,loai_khach.ten,loai_khach.uu_dai from loai_khach where ma = "LK0121";
