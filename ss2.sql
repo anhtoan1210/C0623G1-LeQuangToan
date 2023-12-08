@@ -12,7 +12,7 @@ o_id int primary key auto_increment,
 c_id int not null,
 o_date date not null,
 o_totalPrice double not null,
-foreign key(cID)references customer(cID)
+foreign key(c_id)references customer(c_id)
 );
 
 create table products(
@@ -27,5 +27,5 @@ p_id int,
 primary key(o_id,p_id),
 foreign key(o_id) references orders(o_id),
 foreign key (p_id) references products(p_id),
-odQTY int
+od_qty int
 );

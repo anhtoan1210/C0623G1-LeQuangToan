@@ -1,5 +1,5 @@
-create database quan_ly_ban_hang;
-use quan_ly_ban_hang;
+create database quan_ly_ban_hang_lop_dem;
+use quan_ly_ban_hang_lop_dem;
 
 create table customer(
 c_id int primary key auto_increment,
@@ -77,7 +77,6 @@ from orders od
 join orderDetails o on od.o_id=o.o_id
 join products p on o.p_id=p.p_id
 group by od.o_id,od.o_date;
-
 
 
 

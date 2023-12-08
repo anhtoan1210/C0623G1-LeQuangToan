@@ -1,5 +1,5 @@
-create database quan_ly_sinh_vien;
-use quan_ly_sinh_vien;
+create database quan_ly_sinh_vien_lop_dem;
+use quan_ly_sinh_vien_lop_dem;
 create table Class(
 
          ClassID int not null auto_increment primary key,
