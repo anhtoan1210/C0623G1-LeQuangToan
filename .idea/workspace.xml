@@ -1,38 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d278c271-afd9-45f6-85ed-819d6c6e7c91" name="Changes" comment="nop bai 2" />
+    <list default="true" id="c350e990-d602-4dfe-8433-2bfbe16c7807" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/module3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/castudy_nhom_1/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/castudy_nhom_1/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/castudy_nhom_1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/castudy_nhom_1/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/castudy_nhom_1/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/castudy_nhom_1/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/castudy_nhom_1/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/castudy_nhom_1/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/castudy_nhom_1/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/castudy_nhom_1/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/castudy_nhom_1/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/castudy_nhom_1/gradlew.bat" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="CSS File" />
-        <option value="HTML File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="PREVIOUS_COMMIT_AUTHORS">
-      <list>
-        <option value="ADMIN &lt;lequangtoan12102000@gmail.com&gt;" />
-      </list>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GitSEFilterConfiguration">
-    <file-type-list>
-      <filtered-out-file-type name="LOCAL_BRANCH" />
-      <filtered-out-file-type name="REMOTE_BRANCH" />
-      <filtered-out-file-type name="TAG" />
-      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
-    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -40,8 +27,7 @@
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 4
 }]]></component>
-  <component name="ProjectId" id="2X44jEw3X3HxKDhFwgWcNJ4MXk4" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="2aoOmLpEHsqdPJkVOTLuHWtKWxv" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -50,14 +36,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/module3/bai_tap_12",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -65,57 +44,16 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d278c271-afd9-45f6-85ed-819d6c6e7c91" name="Changes" comment="" />
-      <created>1697875150921</created>
+      <changelist id="c350e990-d602-4dfe-8433-2bfbe16c7807" name="Changes" comment="" />
+      <created>1704981625326</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1697875150921</updated>
-      <workItem from="1697875153974" duration="110000" />
-      <workItem from="1697979082944" duration="4440000" />
-      <workItem from="1698031308097" duration="9482000" />
-      <workItem from="1698118041191" duration="2200000" />
-      <workItem from="1698202423842" duration="16498000" />
-      <workItem from="1698236006503" duration="2611000" />
-      <workItem from="1698281968379" duration="5947000" />
-      <workItem from="1698711578827" duration="3313000" />
-      <workItem from="1698932102617" duration="232000" />
-      <workItem from="1704458225567" duration="667000" />
+      <updated>1704981625326</updated>
+      <workItem from="1704981627007" duration="73000" />
     </task>
-    <task id="LOCAL-00001" summary="nop bai 2">
-      <option name="closed" value="true" />
-      <created>1704458623085</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1704458623085</updated>
-    </task>
-    <task id="LOCAL-00002" summary="nop bai 2">
-      <option name="closed" value="true" />
-      <created>1704458962635</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1704458962635</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="nop bai 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="nop bai 2" />
   </component>
 </project>
