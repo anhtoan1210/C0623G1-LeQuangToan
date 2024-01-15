@@ -5,18 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c350e990-d602-4dfe-8433-2bfbe16c7807" name="Changes" comment="up hello">
-      <change afterPath="$PROJECT_DIR$/baI_7_lop_dem/bai_2/bai_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baI_7_lop_dem/bai_7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baI_7_lop_dem/bai_2/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baI_7_lop_dem/bai_2/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baI_7_lop_dem/bai_2/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baI_7_lop_dem/bai_2/img_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baI_7_lop_dem/bai_2/img_4.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai_tap_10/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bai_tap_10/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai_tap_10/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bai_tap_10/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai_tap_10/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bai_tap_10/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai_tap_10/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/bai_tap_10/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai_tap_10/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/bai_tap_10/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai_tap_10/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/bai_tap_10/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai_tap_10_bai_2/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bai_tap_10_bai_2/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai_tap_10_bai_2/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bai_tap_10_bai_2/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai_tap_10_bai_2/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/bai_tap_10_bai_2/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baI_7_lop_dem/bai_2/bai_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/baI_7_lop_dem/bai_2/bai_2.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +65,7 @@
       <updated>1704981625326</updated>
       <workItem from="1704981627007" duration="73000" />
       <workItem from="1704982032746" duration="176000" />
-      <workItem from="1705291727649" duration="6737000" />
+      <workItem from="1705291727649" duration="10760000" />
     </task>
     <task id="LOCAL-00001" summary="up hello">
       <option name="closed" value="true" />
