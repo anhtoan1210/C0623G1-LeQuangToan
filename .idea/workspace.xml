@@ -1,22 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c350e990-d602-4dfe-8433-2bfbe16c7807" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/module3.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/castudy_nhom_1/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/castudy_nhom_1/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/castudy_nhom_1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/castudy_nhom_1/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/castudy_nhom_1/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/castudy_nhom_1/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/castudy_nhom_1/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/castudy_nhom_1/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/castudy_nhom_1/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/castudy_nhom_1/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/castudy_nhom_1/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/castudy_nhom_1/gradlew.bat" afterDir="false" />
+    <list default="true" id="c350e990-d602-4dfe-8433-2bfbe16c7807" name="Changes" comment="up hello">
+      <change afterPath="$PROJECT_DIR$/baI_7_lop_dem/bai_2/bai_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baI_7_lop_dem/bai_7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai_tap_10/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bai_tap_10/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai_tap_10/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bai_tap_10/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai_tap_10/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bai_tap_10/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai_tap_10/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/bai_tap_10/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai_tap_10/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/bai_tap_10/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai_tap_10/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/bai_tap_10/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai_tap_10_bai_2/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bai_tap_10_bai_2/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai_tap_10_bai_2/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bai_tap_10_bai_2/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai_tap_10_bai_2/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/bai_tap_10_bai_2/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -24,9 +36,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2aoOmLpEHsqdPJkVOTLuHWtKWxv" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -34,10 +46,17 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/codegym/C0623G1-LeQuangToan",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.intellij.platform.ide.impl.presentationAssistant.PresentationAssistantConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -50,10 +69,33 @@
       <option name="presentableId" value="Default" />
       <updated>1704981625326</updated>
       <workItem from="1704981627007" duration="73000" />
+      <workItem from="1704982032746" duration="176000" />
+      <workItem from="1705291727649" duration="6737000" />
     </task>
+    <task id="LOCAL-00001" summary="up hello">
+      <option name="closed" value="true" />
+      <created>1704982099630</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1704982099630</updated>
+    </task>
+    <task id="LOCAL-00002" summary="up hello">
+      <option name="closed" value="true" />
+      <created>1704982141358</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1704982141358</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="up hello" />
+    <option name="LAST_COMMIT_MESSAGE" value="up hello" />
   </component>
 </project>
