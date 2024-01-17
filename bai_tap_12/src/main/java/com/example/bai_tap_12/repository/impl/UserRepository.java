@@ -26,7 +26,7 @@ UserRepository implements IUserRepository {
         System.out.println(INSERT_USERS_SQL);
         Connection connection = BaseRepository.getConnectDB();
         try (
-                connection.setAutoCommit(false);
+
                 PreparedStatement preparedStatement = connection.prepareStatement(INSERT_USERS_SQL)) {
             preparedStatement.setString(1, user.getName());
             preparedStatement.setString(2, user.getEmail());

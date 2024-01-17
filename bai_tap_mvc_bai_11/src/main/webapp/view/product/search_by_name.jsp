@@ -17,7 +17,7 @@
     <th>ID</th>
     <th>Tên</th>
     <th>Giá</th>
-    <th>Mô tả</th>
+    <th>Mô Tả</th>
     <th>Nguồn gốc</th>
     <th>Edit</th>
     <th>Delete</th>
