@@ -43,7 +43,9 @@
     <table class="table table-striped">
         <tr>
             <td><input hidden="hidden" type="text" name="action" value="searchId"></td>
-            <td><input type="text" name="name"><button>Details By ID</button></td>
+            <td><input type="text" name="name">
+                <button>Details By ID</button>
+            </td>
         </tr>
     </table>
 </form>
@@ -52,23 +54,28 @@
         <tr>
             <td><input hidden="hidden" type="text" name="action" value="searchName"></td>
 
-            <td><input type="text" name="name"><button>Search By Name</button></td>
+            <td><input type="text" name="name">
+                <button>Search By Name</button>
+            </td>
         </tr>
     </table>
 </form>
 <br>
 <table class="table table-striped">
     <tr>
-        <th>Tên</th>--%>
-                <th>Số lượng</th>
-                <th>Giá</th>
-                <th>Mô tả</th>
-                <th>Nguồn gốc</th>
+        <th>Stt</th>
+        <th>Mã</th>
+        <th>Tên</th>
+        <th>Số lượng</th>
+        <th>Giá</th>
+        <th>Mô tả</th>
+        <th>Nguồn gốc</th>
         <th>Edit</th>
         <th>Delete</th>
     </tr>
-    <c:forEach items="${products1}" var="product">
+    <c:forEach items="${Product}" var="product" varStatus="toan">
         <tr>
+            <td>${toan.count}</td>
             <td>${product.id}</td>
             <td>${product.name}</td>
             <td>${product.price}</td>
